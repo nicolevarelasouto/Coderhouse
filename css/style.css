@@ -1,0 +1,493 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+h1{
+    color: #4C6FB2; 
+    font-size: 30px;
+    text-align: center;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+figcaption{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+p{
+    color: #072F7E; 
+    font-size: 16px;
+    text-align: left;
+}
+h2{
+    font-size: 22px; 
+    text-align: center;
+}
+h2 h3 h4 {
+    color: black;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+/* starts nav */
+.menu{
+    background-color: #4C6FB2 ;
+    width: 100%;
+    margin-bottom: 20px;
+    margin-top: none;
+    padding: none;
+    /* flexbox */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.menu svg{
+    fill: white;
+}
+.menu .navbar-toggler{
+    border: none;
+}
+.hamburger-border{
+    border: none;
+}
+    .img-nav{
+        width: 10%;
+        margin: 0px 10px;
+    }
+    .menu ul li a:hover{
+        text-decoration: underline;
+    }
+    .text-nav{
+        color: white;
+    }
+    .menu ul li a img{
+        width: 10%;
+    }
+    .menu ul{
+        list-style: none;
+         display: flex;
+         flex-direction: row;
+    }
+        .menu ul li{
+           margin: 20px;
+        }
+        .menu ul li a{
+            text-decoration: none;
+            color: white;
+            font-size: 1em;
+            font-weight: 600;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+    .hamburger-color{
+        color: white;
+    }
+/* ends nav */
+
+h1{
+    font-family: "roboto bold", sans-serif;
+    color: #4C6FB2;
+}
+h2,h3,h4,h5,p,a,form{
+    font-family: "roboto regular", sans-serif
+}
+.image-logo{
+    width: 15%;
+}
+
+.main-container{
+    margin: 2% auto;
+    width: 30%;
+    height: 30%;
+}
+.header{
+    height: auto;
+    width: 100%;
+    margin: none;
+    padding: none;
+}
+.index a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+/* starts search bar */
+.search-bar{
+    display: flex;
+    justify-content: flex-end;
+    margin: 1em;
+    padding: 1em;
+    background-color: white;
+}
+.button{
+    background-color: white;
+    color: #4C6FB2;
+    margin: 10px;
+    padding: 10px;
+    border: solid 1px #072F7E;
+    border-radius: 15%;
+}
+.button:hover{
+    background-color: #4C6FB2;
+    color: white;
+}
+.form-search{
+    border: solid 1px #072F7E;
+    background-color: white;
+    color: #4C6FB2;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5%;
+}
+.form-search:hover{
+    color: #072F7E;
+    font-weight: 400;
+}
+/* ends search bar */
+/* starts main page home or index */
+.main-home{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    margin-bottom: 5%;
+}
+    .main-home img{
+        padding: 20px;
+        margin: 20px;
+        width: 40%;
+    }
+    .main-home-container{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .main-home-container-column{
+        display: flex;
+        flex-direction: row;
+    }
+    .main-home-container h2{
+        text-align: center;
+        padding: 2%;
+        margin: 1%;
+    }
+        .main-home p{
+            margin-top: 3%;
+            font-size: 1.3em;
+        }
+       
+/* ends main page home */
+/* starts main page que es un funko */
+.main-quienes-somos{
+    display: flex;
+    flex-direction: row;
+    margin: 5px;
+    padding: 10px;
+}
+.main-quienes-somos-container{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+}
+    .main-quienes-somos p{
+        width: 60%;
+        margin: 3% 1%;
+        font-size: 1.2em;
+    }
+    .main-quienes-somos iframe{
+        padding: 10px;
+        margin: 20px 0px;
+        width: 40%;
+    }
+.parrafo-quienes-somos{
+    width: 95%;
+    height: auto;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+figure.funkos{
+    border: 3px solid #4C6FB2;
+    width: 18%;
+    padding: 1rem;
+    margin: 1rem;
+}
+.container-funkos{
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+    figure.funkos img{
+        width: 100%;
+        height: auto;
+        padding: 5px;
+        margin: 5px;
+}
+    .figcaption-funko{
+        text-align: center;
+        margin: 5px;
+        font-weight: 700;
+    }
+    .end-button{
+        font-size: 1em;
+        color: #072F7E;
+        border-radius: none;
+        border: solid #4C6FB2;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        text-align: center;
+        padding: 5px 10px;
+        margin: 1rem;
+        list-style: none;
+        text-decoration: none;
+    }
+    .end-button:hover{
+        color: white;
+        background-color: #4C6FB2;
+        cursor:pointer;
+    }
+    figure.funkos p{
+        text-align: left;
+        padding: 5px;
+        margin: 1rem;
+    }
+.ver-todo-button{
+    display: flex;
+    justify-content: center;
+    border: #4C6FB2 solid 3px;
+    margin: 26px;
+    padding: 10px;
+}
+.ver-todo-button:hover{
+    background-color: #4C6FB2;
+}
+    .ver-todo-button a{
+        text-decoration: none;
+        color: #072F7E;
+        font-weight: 700;
+    }
+    .ver-todo-button a:hover{
+        color: white;
+    }
+.cards{
+    border: #4C6FB2 solid 3px;
+    margin: 1rem;
+    padding: 5px;
+    border-radius: none;
+}
+.txt-pagination{
+    color: #072F7E;
+    background-color: white;
+}
+.txt-pagination:hover{
+    color: white;
+    background-color: #4C6FB2;
+}
+/* ends main page quienes somos */
+/* starts main funkos page funko */
+.available-funkos{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 5px;
+    padding: 10px;
+}
+    figure.productos{
+        border-radius: 10px;
+        border: 3px solid #4C6FB2;
+        width: 18%;
+        padding: 1rem;
+        margin: 1rem;
+    }
+    .container-funkos{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    figure.productos img{
+        width: 100%;
+        height: auto;
+        padding: 5px;
+        margin: 5px;
+    }
+    
+    figure.productos figcaption{
+        text-align: center;
+        padding: 5px;
+        margin: 10px 5px;
+        font-weight: 500;
+        color: #072F7E;
+        font-size: 1em;
+    }
+    .center-button{
+        font-size: 1em;
+        color: #072F7E;
+        border-radius: 10px;
+        border: solid 3px #4C6FB2;
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 10px;
+        margin: 1rem;
+        list-style: none;
+        text-decoration: none;
+    }
+    .center-button:hover{
+        background-color: #4C6FB2;
+        color: white;
+    }
+        figure.productos a{
+            justify-content: center;
+            color: #072F7E;
+            padding: 5px 10px; 
+            margin: 10px 5px;
+            list-style: none;
+            text-decoration: none;
+            text-align: center;
+            font-size: 1em;
+    }
+    .tabs{
+        margin: 25px 0px;
+    }
+    #h1{
+        color: #4C6FB2;
+        margin: 10px;
+    }
+    .color-link-tab{
+        color: #4C6FB2;
+    }
+    
+ /* ends main funkos */
+/* starts page staff */
+.main-staff{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 5px 10px;
+}
+    figure.tiendas{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+        margin: 1em;
+        border: solid 3px #4C6FB2;
+    }
+        figure.tiendas figcaption{
+            text-align: center;
+            font-weight: 500;
+            color: #072F7E;
+        }
+        figure.tiendas img{
+            width: 100%;
+            height: auto;
+            padding: 10px;
+            margin: 10px;
+        }
+        figure.tiendas p{
+            text-align: center;
+            margin: 5px;
+            padding: 5px;
+        }
+    .cards-staff{
+        margin: 20px 10px; 
+        padding: 20px;
+    }
+        .self-card{
+            margin: 20px 10px;
+        }
+    .body-card-staff{
+        color: #4C6FB2;
+        background-color: white;
+        border: solid 1px #4C6FB2;
+    }
+    .body-card-staff:hover{
+        color: white;
+        background-color: #4C6FB2;
+    }
+
+/* ends page staff */
+/* starts page contacto */
+.main-form{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    margin: 5px 10px;
+}
+    .form{
+        border-radius: 10px;
+        border: 3px solid #4C6FB2;
+        width: 25%;
+        margin: 10px;
+        padding: 10px;
+    }
+    .div-contacto{
+        margin: 10px;
+        padding: 10px;
+    }
+.grid-container{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+.contacto-form{
+    margin: 2rem;
+    padding: 2rem;
+}
+.contacto-button{
+    background-color: white;
+    color: #4C6FB2;
+    border: #4C6FB2 1px solid;
+}
+.grids-contacto{
+    margin: 10px;
+    padding: 10px;
+}
+    .grids-contacto-self{
+        gap: 10px;
+    }
+    .truncate-img-contacto{
+        overflow: hidden;
+    }
+/* ends page contacto */
+ /* starts footer */
+.footing-color{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: stretch;
+    background-color: #4C6FB2;
+    color: white;
+}
+    .p-footer{
+        color: white;
+    }
+    .image-footer{
+        display: flex;
+        justify-content: space-around;
+        width: 4rem;
+        height: auto;
+        margin: 10px;
+        padding: 5px;
+}
+.h4-black{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 1em;
+    padding-top: 1em;
+    margin: 1em;
+}
+.img-footer{
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* ends footer */

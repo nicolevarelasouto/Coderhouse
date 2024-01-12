@@ -1,0 +1,6 @@
+editar las imagenes para que tengan más o menos el tamaño que yo busco en illustrator, photoshop o photopea: https://www.photopea.com/
+
+juegos para aprender grids: https://cssgridgarden.com/#es
+
+aprender grids (no juegos, info y más): https://www.joshwcomeau.com/css/interactive-guide-to-grid
+ https://www.w3schools.com/css/css_grid.asp
