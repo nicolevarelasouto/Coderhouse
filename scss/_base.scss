@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+$light: 300;
+$regular: 500;
+$bold: 700;
+
+$sizeXxl: 2rem;
+$sizeXl:1.5rem;
+$sizeLg: 1rem;
+$sizeMd: 0.8rem;
+$sizeSm: 0.6rem;
+
+$txtCenter: center;
+$txtLeft: left;
+//ends fonts
+
+$mainColor: #4C6FB2;
+$secondColor: #072F7E; 
+$white: rgb(252, 249, 249);
+$black: rgb(3, 3, 3);
+//ends colors
+
+$widthFull: 100%;
+$widthHalf: 50%;
+$width10: 10%;
+$widthAuto: auto;
+
+$heigthFull: 100%;
+$heightHalf: 50%;
+$height10: 10%;
+$heightAuto: auto;
+//ends width and height
+
+$equalSmMg: 5px;
+$equalMdMg: 10px;
+$equalLgMg: 20px;
+$mainMargin: 20px 10px;
+
+$equalSmPd: 5px;
+$equalMdPd: 10px;
+$equalLgPd: 20px;
+$mainPadding: 20px 10px;
+//ends margin and padding
+
+$dirRow: row;
+$dirCol: column;
+$alignX: center;
+$justySB: space-between;
+$justySE: space-evenly;
+$justyX: center;
+$wrap: wrap;
+$noWrap: nowrap;
+
