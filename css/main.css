@@ -297,6 +297,36 @@ h4 {
 
 /* ends staff sass */
 /* starts contacto sass */
+.contacto-form {
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.contacto-button {
+  background-color: rgb(252, 249, 249);
+  color: #4C6FB2;
+  border: solid 1px #4C6FB2;
+}
+
+.img-cards-contacto {
+  width: 25%;
+  padding: 5px;
+  margin: 5px;
+}
+
+.stars-color {
+  color: #4C6FB2;
+}
+
+.cards-contacto {
+  padding: 20px;
+}
+
+.h2-contacto {
+  margin: 10px 2px;
+  text-align: start;
+}
+
 /* ends contacto sass */
 
 /*# sourceMappingURL=main.css.map */

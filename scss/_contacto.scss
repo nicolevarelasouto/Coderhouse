@@ -1,3 +1,27 @@
 /* starts contacto sass */
 
+.contacto-form{
+    margin: $sizeXxl;
+    padding: $sizeXxl;
+}
+.contacto-button{
+    background-color: $white;
+    color: $mainColor;
+    border: solid 1px $mainColor;
+}
+.img-cards-contacto{
+    width: $width25;
+    padding: $equalSmPd;
+    margin: $equalSmMg;
+}
+.stars-color{
+    color: $mainColor;
+}
+.cards-contacto{
+    padding: $equalLgPd;
+}
+.h2-contacto{
+    margin: $equalMdMg 2px;
+    text-align: start;
+}
 /* ends contacto sass */
