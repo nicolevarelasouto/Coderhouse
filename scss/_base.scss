@@ -34,19 +34,26 @@ $equalSmMg: 5px;
 $equalMdMg: 10px;
 $equalLgMg: 20px;
 $mainMargin: 20px 10px;
+$mg0And10: 0px 10px;
 
 $equalSmPd: 5px;
 $equalMdPd: 10px;
 $equalLgPd: 20px;
 $mainPadding: 20px 10px;
+$pg0And10: 0px 10px;
 //ends margin and padding
+
+$radius15: 15%;
+//ends border radius
 
 $dirRow: row;
 $dirCol: column;
 $alignX: center;
 $justySB: space-between;
 $justySE: space-evenly;
+$justySA: space-around;
 $justyX: center;
 $wrap: wrap;
 $noWrap: nowrap;
+//ends flex
 

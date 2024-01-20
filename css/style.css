@@ -2,12 +2,12 @@
 h1{
     color: #4C6FB2; 
     font-size: 30px;
-    text-align: center;
+    text-align: center; /* done */
 }
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; 
 }
 figcaption{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
@@ -15,18 +15,14 @@ figcaption{
 p{
     color: #072F7E; 
     font-size: 16px;
-    text-align: left;
+    text-align: left; /* done */
 }
 h2{
     font-size: 22px; 
-    text-align: center;
+    text-align: center; /* done */
 }
 h2 h3 h4 {
-    color: black;
-}
-nav ul li a{
-    color: white;
-    text-decoration: none;
+    color: black; /* done */
 }
 /* starts nav */
 .menu{
@@ -35,114 +31,79 @@ nav ul li a{
     margin-bottom: 20px;
     margin-top: none;
     padding: none;
-    /* flexbox */
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; /* done */
 }
 .menu svg{
-    fill: white;
+    fill: white; /* done */
 }
 .menu .navbar-toggler{
-    border: none;
+    border: none; /* done */
 }
 .hamburger-border{
-    border: none;
+    border: none; /* done */
 }
     .img-nav{
         width: 10%;
-        margin: 0px 10px;
+        margin: 0px 10px; /* done */
     }
     .menu ul li a:hover{
-        text-decoration: underline;
-    }
-    .text-nav{
-        color: white;
+        text-decoration: underline; /* done */
     }
     .menu ul li a img{
-        width: 10%;
-    }
-    .menu ul{
-        list-style: none;
-         display: flex;
-         flex-direction: row;
+        width: 10%; /* done */
     }
         .menu ul li{
-           margin: 20px;
+           margin: 20px; /* done */
         }
         .menu ul li a{
             text-decoration: none;
             color: white;
             font-size: 1em;
             font-weight: 600;
-            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /* done */
         }
     .hamburger-color{
-        color: white;
+        color: white; /* done */
     }
 /* ends nav */
 
 h1{
     font-family: "roboto bold", sans-serif;
-    color: #4C6FB2;
+    color: #4C6FB2; /* done */
 }
 h2,h3,h4,h5,p,a,form{
-    font-family: "roboto regular", sans-serif
+    font-family: "roboto regular", sans-serif; /* done */
 }
-.image-logo{
-    width: 15%;
-}
-
 .main-container{
     margin: 2% auto;
     width: 30%;
-    height: 30%;
+    height: 30%; /* es del index */
 }
 .header{
     height: auto;
     width: 100%;
     margin: none;
-    padding: none;
-}
-.index a{
-    color: white;
-    text-decoration: none;
-    list-style: none;
+    padding: none; /* done */
 }
 /* starts search bar */
-.search-bar{
-    display: flex;
-    justify-content: flex-end;
-    margin: 1em;
-    padding: 1em;
-    background-color: white;
-}
+
 .button{
     background-color: white;
     color: #4C6FB2;
     margin: 10px;
     padding: 10px;
     border: solid 1px #072F7E;
-    border-radius: 15%;
+    border-radius: 15%; /* done */
 }
 .button:hover{
     background-color: #4C6FB2;
-    color: white;
-}
-.form-search{
-    border: solid 1px #072F7E;
-    background-color: white;
-    color: #4C6FB2;
-    padding: 10px;
-    margin: 10px;
-    border-radius: 5%;
-}
-.form-search:hover{
-    color: #072F7E;
-    font-weight: 400;
+    color: white; /* done */
 }
 /* ends search bar */
+
 /* starts main page home or index */
 .main-home{
     display: flex;
@@ -483,31 +444,22 @@ figure.funkos{
     justify-content: space-around;
     align-items: stretch;
     background-color: #4C6FB2;
-    color: white;
+    color: white; /* done */
 }
-    .p-footer{
-        color: white;
-    }
     .image-footer{
         display: flex;
         justify-content: space-around;
         width: 4rem;
         height: auto;
         margin: 10px;
-        padding: 5px;
-}
+        padding: 5px; /* done */
+    }
 .h4-black{
     display: flex;
     justify-content: space-around;
     color: white;
     font-size: 1em;
     padding-top: 1em;
-    margin: 1em;
+    margin: 1em; /* done */
 }
-.img-footer{
-    width: 50%;
-    padding: 10px;
-    margin: 10px;
-}
-
 /* ends footer */

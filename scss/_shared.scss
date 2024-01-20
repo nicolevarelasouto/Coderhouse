@@ -3,6 +3,7 @@ h1{
     font-size: $sizeXxl;
     text-align: $txtCenter;
     font-weight: $bold;
+    font-family: "roboto", sans-serif;
 }
 
 h2,
@@ -11,6 +12,14 @@ h4{
     color: $black;
     text-align: $txtCenter;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+h2,
+h3,
+h4,
+h5,
+p,
+form{
+    font-family: "roboto regular", sans-serif;
 }
 p{
     color: $secondColor;
@@ -32,6 +41,14 @@ h4{
 }
 //ends general
 
+.header{
+    height: $heightAuto;
+    width: $widthFull;
+    margin: none;
+    padding: none;
+}
+/* ends header */
+
 .menu{
     background-color: $mainColor;
     width: $widthFull;
@@ -41,5 +58,81 @@ h4{
     flex-direction: $dirRow;
     align-items: $alignX;
     justify-content: $justySB;
+    svg{
+        fill: $white;
+    }
+    .navbar-toggler{
+        border: none;
+    }
+    .hamburger-border{
+        border: none;
+    }
+    ul{
+        li{
+            margin: $equalLgMg;
+            a{
+                text-decoration: none;
+                color: white;
+                font-size: 1em;
+                font-weight: 600;
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+                &:hover{
+                    text-decoration: underline;
+                }
+                    img{
+                        width: $width10;
+                    }
+            }
+        }
+    }
 }
+.img-nav{
+    width: $width10;
+    margin: $mg0And10;
+}
+.hamburger-color{
+    color: $white;
+}
+
 //ends nav bar
+
+.button{
+    background-color: $white;
+    color: $mainColor;
+    margin: $equalMdMg;
+    padding: $equalMdPd;
+    border: solid 1px $secondColor;
+    border-radius: $radius15;
+        &:hover{
+            background-color: $mainColor;
+            color: $white;
+        }
+}
+/* ends search bar */
+
+.footing-color{
+    display: flex;
+    flex-direction: $dirRow;
+    justify-content: $justySA;
+    align-items: stretch;
+    background-color: $mainColor;
+    color: $white;
+}
+.image-footer{
+    display: flex;
+    justify-content: $justySA;
+    width: 4rem;
+    height: $heightAuto;
+    margin: $equalMdMg;
+    padding: $equalSmPd; 
+}
+.h4-black{
+    display: flex;
+    justify-content: $justySA;
+    color: $white;
+    font-size: $sizeLg;
+    padding-top: $sizeLg;
+    margin: $sizeLg; 
+}
+
+/* ends footer */
