@@ -141,5 +141,33 @@ h4 {
 }
 
 /* ends footer */
+.main-container {
+  margin: 2% auto;
+  width: 30%;
+  height: 30%;
+}
+
+.main-home {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+  margin-bottom: 5%;
+}
+.main-home img {
+  padding: 20px;
+  margin: 20px;
+  width: 40%;
+}
+.main-home p {
+  margin-top: 3%;
+  font-size: 1, 3em;
+}
+
+.main-home-container-column {
+  display: flex;
+  flex-direction: row;
+}
 
 /*# sourceMappingURL=main.css.map */

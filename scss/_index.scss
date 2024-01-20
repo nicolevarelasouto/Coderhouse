@@ -1,0 +1,28 @@
+//starts index
+
+.main-container{
+    margin: 2% auto;
+    width: $width30;
+    height: $height30;
+}
+.main-home{
+    display: flex;
+    flex-direction: $dirCol;
+    flex-wrap: $wrap;
+    justify-content: $justySB;
+    padding: $equalLgPd;
+    margin-bottom: 5%;
+        img{
+            padding: $equalLgPd;
+            margin: $equalLgMg;
+            width: $width40;
+        }
+        p{
+            margin-top: 3%;
+            font-size: 1,3em;
+        }
+}
+.main-home-container-column{
+    display: flex;
+    flex-direction: $dirRow;
+}
