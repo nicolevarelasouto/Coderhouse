@@ -1,0 +1,69 @@
+.main-quienes-somos{
+    display: flex;
+    p{
+        width: $width60;
+        margin: 3% 1%;
+        font-size: 1.2em;
+    }
+    iframe{
+        padding: $equalMdPd;
+        margin: $equalLgMg 0px;
+        width: $width40;
+    }
+}
+.main-quienes-somos-container{
+    width: $widthFull;
+    display: flex;
+    flex-direction: $dirRow;
+    justify-content: $justySB;
+}
+.parrafo-quienes-somos{
+    width: 95%;
+    height: $heightAuto;
+    padding: $equalMdPd;
+    margin: $equalMdMg;
+    text-align: $txtCenter;
+}
+.end-button{
+    font-size: $sizeLg;
+    color: $secondColor;
+    border-radius: none;
+    border: solid 1px $mainColor;
+    display: flex;
+    flex-direction: $dirRow;
+    justify-content: $justyX;
+    text-align: $alignX;
+    padding: $equalSmPd $equalMdPd;
+    margin: 1rem;
+    list-style: none;
+    text-decoration: none;
+        &:hover{
+            background-color: $mainColor;
+            color: $white;
+            cursor: pointer;
+        }
+}
+.ver-todo-button{
+    display: flex;
+    justify-content: $justyX;
+    border: solid 3px $mainColor;
+    margin: 26px;
+    padding: $equalMdPd;
+        &:hover{
+            background-color: $mainColor;
+            color: $white;
+        }
+        a{
+            text-decoration: none;
+            color: $white;
+            font-weight: $bold;
+                &:hover{
+                    color: $white;
+                }
+        }
+}
+.cards{
+    border: solid 3px $mainColor;
+    margin: 1rem;
+    padding: $equalSmPd;
+}

@@ -131,57 +131,31 @@ h2,h3,h4,h5,p,a,form{
 /* ends main page home */
 /* starts main page que es un funko */
 .main-quienes-somos{
-    display: flex;
-    flex-direction: row;
-    margin: 5px;
-    padding: 10px;
+    display: flex; /* done */
 }
 .main-quienes-somos-container{
         width: 100%;
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-between; /* done */
 }
     .main-quienes-somos p{
         width: 60%;
         margin: 3% 1%;
-        font-size: 1.2em;
+        font-size: 1.2em; /* done */
     }
     .main-quienes-somos iframe{
         padding: 10px;
         margin: 20px 0px;
-        width: 40%;
+        width: 40%; /* done */
     }
 .parrafo-quienes-somos{
     width: 95%;
     height: auto;
     padding: 10px;
     margin: 10px;
-    text-align: center;
+    text-align: center; /* done */
 }
-figure.funkos{
-    border: 3px solid #4C6FB2;
-    width: 18%;
-    padding: 1rem;
-    margin: 1rem;
-}
-.container-funkos{
-    max-width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-    figure.funkos img{
-        width: 100%;
-        height: auto;
-        padding: 5px;
-        margin: 5px;
-}
-    .figcaption-funko{
-        text-align: center;
-        margin: 5px;
-        font-weight: 700;
-    }
     .end-button{
         font-size: 1em;
         color: #072F7E;
@@ -194,45 +168,41 @@ figure.funkos{
         padding: 5px 10px;
         margin: 1rem;
         list-style: none;
-        text-decoration: none;
+        text-decoration: none; /* done */
     }
     .end-button:hover{
         color: white;
         background-color: #4C6FB2;
-        cursor:pointer;
-    }
-    figure.funkos p{
-        text-align: left;
-        padding: 5px;
-        margin: 1rem;
+        cursor:pointer; /* done */
     }
 .ver-todo-button{
     display: flex;
     justify-content: center;
     border: #4C6FB2 solid 3px;
     margin: 26px;
-    padding: 10px;
+    padding: 10px; /* done */
 }
 .ver-todo-button:hover{
     background-color: #4C6FB2;
+    color: white; /* done */
 }
     .ver-todo-button a{
         text-decoration: none;
-        color: #072F7E;
-        font-weight: 700;
+        color: white;
+        font-weight: 700; /* done */
     }
     .ver-todo-button a:hover{
-        color: white;
+        color: white; /* done */
     }
 .cards{
     border: #4C6FB2 solid 3px;
     margin: 1rem;
     padding: 5px;
-    border-radius: none;
+    border-radius: none; /* done */
 }
 .txt-pagination{
-    color: #072F7E;
-    background-color: white;
+    color: #072F7E; 
+    background-color: white; /* done */
 }
 .txt-pagination:hover{
     color: white;
@@ -240,79 +210,10 @@ figure.funkos{
 }
 /* ends main page quienes somos */
 /* starts main funkos page funko */
-.available-funkos{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    margin: 5px;
-    padding: 10px;
-}
-    figure.productos{
-        border-radius: 10px;
-        border: 3px solid #4C6FB2;
-        width: 18%;
-        padding: 1rem;
-        margin: 1rem;
-    }
-    .container-funkos{
-        width: 100%;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    figure.productos img{
-        width: 100%;
-        height: auto;
-        padding: 5px;
-        margin: 5px;
-    }
-    
-    figure.productos figcaption{
-        text-align: center;
-        padding: 5px;
-        margin: 10px 5px;
-        font-weight: 500;
-        color: #072F7E;
-        font-size: 1em;
-    }
-    .center-button{
-        font-size: 1em;
-        color: #072F7E;
-        border-radius: 10px;
-        border: solid 3px #4C6FB2;
-        display: flex;
-        text-align: center;
-        justify-content: center;
-        align-items: center;
-        padding: 5px 10px;
-        margin: 1rem;
-        list-style: none;
-        text-decoration: none;
-    }
-    .center-button:hover{
-        background-color: #4C6FB2;
-        color: white;
-    }
-        figure.productos a{
-            justify-content: center;
-            color: #072F7E;
-            padding: 5px 10px; 
-            margin: 10px 5px;
-            list-style: none;
-            text-decoration: none;
-            text-align: center;
-            font-size: 1em;
-    }
-    .tabs{
-        margin: 25px 0px;
-    }
-    #h1{
+
+     #h1{
         color: #4C6FB2;
-        margin: 10px;
-    }
-    .color-link-tab{
-        color: #4C6FB2;
+        margin: 20px;
     }
     
  /* ends main funkos */

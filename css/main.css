@@ -5,6 +5,8 @@ h1 {
   text-align: center;
   font-weight: 700;
   font-family: "roboto", sans-serif;
+  margin: 20px;
+  padding: 20px;
 }
 
 h2,
@@ -168,6 +170,95 @@ h4 {
 .main-home-container-column {
   display: flex;
   flex-direction: row;
+}
+
+.main-quienes-somos {
+  display: flex;
+}
+.main-quienes-somos p {
+  width: 60%;
+  margin: 3% 1%;
+  font-size: 1.2em;
+}
+.main-quienes-somos iframe {
+  padding: 10px;
+  margin: 20px 0px;
+  width: 40%;
+}
+
+.main-quienes-somos-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.parrafo-quienes-somos {
+  width: 95%;
+  height: auto;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+
+.end-button {
+  font-size: 1rem;
+  color: #072F7E;
+  border-radius: none;
+  border: solid 1px #4C6FB2;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  padding: 5px 10px;
+  margin: 1rem;
+  list-style: none;
+  text-decoration: none;
+}
+.end-button:hover {
+  background-color: #4C6FB2;
+  color: rgb(252, 249, 249);
+  cursor: pointer;
+}
+
+.ver-todo-button {
+  display: flex;
+  justify-content: center;
+  border: solid 3px #4C6FB2;
+  margin: 26px;
+  padding: 10px;
+}
+.ver-todo-button:hover {
+  background-color: #4C6FB2;
+  color: rgb(252, 249, 249);
+}
+.ver-todo-button a {
+  text-decoration: none;
+  color: rgb(252, 249, 249);
+  font-weight: 700;
+}
+.ver-todo-button a:hover {
+  color: rgb(252, 249, 249);
+}
+
+.cards {
+  border: solid 3px #4C6FB2;
+  margin: 1rem;
+  padding: 5px;
+}
+
+.txt-pagination {
+  color: #072F7E;
+  background-color: rgb(252, 249, 249);
+}
+.txt-pagination:hover {
+  color: rgb(252, 249, 249);
+  background-color: #4C6FB2;
+}
+
+#h1 {
+  color: #4C6FB2;
+  margin: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */
