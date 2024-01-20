@@ -1,4 +1,7 @@
+/* starts base sass */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+/* ends base sass */
+/* starts shared sass */
 h1 {
   color: #4C6FB2;
   font-size: 2rem;
@@ -143,6 +146,8 @@ h4 {
 }
 
 /* ends footer */
+/* ends shared sass */
+/* starts index sass */
 .main-container {
   margin: 2% auto;
   width: 30%;
@@ -172,6 +177,8 @@ h4 {
   flex-direction: row;
 }
 
+/* ends index sass */
+/* starts que es funko sass */
 .main-quienes-somos {
   display: flex;
 }
@@ -247,6 +254,8 @@ h4 {
   padding: 5px;
 }
 
+/* ends que es funko sass */
+/* starts funkos sass */
 .txt-pagination {
   color: #072F7E;
   background-color: rgb(252, 249, 249);
@@ -260,5 +269,34 @@ h4 {
   color: #4C6FB2;
   margin: 20px;
 }
+
+/* ends funkos sass */
+/* starts staff sass */
+.cards-staff {
+  margin: 20px 10px;
+  padding: 20px;
+}
+
+.body-card-staff {
+  color: #4C6FB2;
+  background-color: rgb(252, 249, 249);
+  border: solid 1px #4C6FB2;
+}
+.body-card-staff:hover {
+  color: rgb(252, 249, 249);
+  background-color: #4C6FB2;
+}
+
+.grids-staff {
+  padding: 10px;
+  margin: 10px 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+/* ends staff sass */
+/* starts contacto sass */
+/* ends contacto sass */
 
 /*# sourceMappingURL=main.css.map */

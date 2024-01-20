@@ -1,0 +1,24 @@
+/* starts staff sass */
+
+.cards-staff{
+    margin: $mainMargin;
+    padding: $equalLgPd;
+}
+.body-card-staff{
+    color: $mainColor;
+    background-color: $white;
+    border: solid 1px $mainColor;
+        &:hover{
+            color: $white;
+            background-color: $mainColor;
+        }
+}
+.grids-staff{
+    padding: $equalMdPd;
+    margin: $equalMdMg $equalSmMg;
+    display: flex;
+    flex-direction: $dirRow;
+    justify-content: $justyX;
+}
+
+/* ends staff sass */

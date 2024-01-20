@@ -206,68 +206,37 @@ h2,h3,h4,h5,p,a,form{
 }
 .txt-pagination:hover{
     color: white;
-    background-color: #4C6FB2;
+    background-color: #4C6FB2; /* done */
 }
 /* ends main page quienes somos */
 /* starts main funkos page funko */
 
      #h1{
         color: #4C6FB2;
-        margin: 20px;
+        margin: 20px; /* done */
     }
     
  /* ends main funkos */
 /* starts page staff */
-.main-staff{
-    display: flex;
-    flex-direction: row;
-    padding: 10px;
-    margin: 5px 10px;
-}
-    figure.tiendas{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        padding: 10px;
-        margin: 1em;
-        border: solid 3px #4C6FB2;
-    }
-        figure.tiendas figcaption{
-            text-align: center;
-            font-weight: 500;
-            color: #072F7E;
-        }
-        figure.tiendas img{
-            width: 100%;
-            height: auto;
-            padding: 10px;
-            margin: 10px;
-        }
-        figure.tiendas p{
-            text-align: center;
-            margin: 5px;
-            padding: 5px;
-        }
+
     .cards-staff{
         margin: 20px 10px; 
-        padding: 20px;
+        padding: 20px; /* done */
     }
-        .self-card{
-            margin: 20px 10px;
-        }
     .body-card-staff{
         color: #4C6FB2;
         background-color: white;
-        border: solid 1px #4C6FB2;
+        border: solid 1px #4C6FB2; /* done */
     }
     .body-card-staff:hover{
         color: white;
-        background-color: #4C6FB2;
+        background-color: #4C6FB2; /* done */
     }
     .grids-staff{
         padding: 10px;
         margin: 10px 5px;
         display: flex;
+        flex-direction: row;
         justify-content: center;
     }
 /* ends page staff */
