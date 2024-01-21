@@ -20,5 +20,9 @@
     flex-direction: $dirRow;
     justify-content: $justyX;
 }
-
+.img-grids{
+    &:hover{
+        filter: grayscale(1);
+    }
+}
 /* ends staff sass */
