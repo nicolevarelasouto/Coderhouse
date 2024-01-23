@@ -97,6 +97,9 @@ h4{
 .hamburger-color{
     color: $white;
 }
+.transform-nav{
+    transform: translateY(-2vh); 
+}
 
 //ends nav bar
 
@@ -112,6 +115,8 @@ h4{
             color: $white;
         }
 }
+
+
 /* ends search bar */
 
 .footing-color{
