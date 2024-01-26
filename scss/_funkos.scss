@@ -12,5 +12,11 @@
     color: $mainColor;
     margin: $equalLgMg;
 }
+.color-filtros{
+    color: $secondColor;
+        &:hover{
+            color: $mainColor
+        }
+}
 
 /* ends funkos sass */

@@ -3,4 +3,10 @@ $paleta:(
     "second": #072F7E,
     "white": rgb(252, 249, 249),
     "black": rgb(3, 3, 3),
-)
+);
+
+@mixin basic($margin,$width,$height){
+    margin: $margin;
+    width: $width;
+    height: $height;
+}

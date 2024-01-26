@@ -230,6 +230,12 @@ h2,h3,h4,h5,p,a,form{
         color: #4C6FB2;
         margin: 20px; /* done */
     }
+    .color-filtros{
+        color:#072F7E;
+    }
+    .color-filtros:hover{
+        color: #4C6FB2;
+    }
     
  /* ends main funkos */
 /* starts page staff */

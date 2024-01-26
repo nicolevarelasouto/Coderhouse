@@ -1,9 +1,7 @@
 /* starts index sass */
 
 .main-container{
-    margin: 2% auto;
-    width: $width30;
-    height: $height30;
+    @include basic(2% auto, $width30, $height30)
 }
 .main-home{
     display: flex;
