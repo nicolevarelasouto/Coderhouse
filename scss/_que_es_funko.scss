@@ -1,5 +1,10 @@
 /* starts que es funko sass */
 
+@media (width < 945px){
+    iframe{
+        width: 100%;
+    }
+}
 .main-quienes-somos{
     display: flex;
     p{
