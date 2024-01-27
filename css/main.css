@@ -358,5 +358,25 @@ h4 {
 }
 
 /* ends contacto sass */
+.img-error {
+  width: 100%;
+}
+
+.h1-error {
+  margin: 20px 10px;
+  padding: 20px 10px;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.h2-error {
+  margin: 20px 10px;
+  padding: 20px 10px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+/* starts 404 error sass*/
+/* ends 404 error sass */
 
 /*# sourceMappingURL=main.css.map */

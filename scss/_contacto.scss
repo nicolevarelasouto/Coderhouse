@@ -25,3 +25,20 @@
     text-align: start;
 }
 /* ends contacto sass */
+.img-error{
+    width: $widthFull;
+}
+.h1-error{
+    margin: $mainMargin;
+    padding: $mainPadding;
+    text-align: $txtCenter;
+    font-size: $sizeXl;
+}
+.h2-error{
+    margin: $mainMargin;
+    padding: $mainPadding;
+    text-align: $txtCenter;
+    font-size: $sizeLg;
+}
+/* starts 404 error sass*/
+/* ends 404 error sass */

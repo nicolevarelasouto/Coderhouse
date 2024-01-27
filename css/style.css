@@ -294,6 +294,23 @@ h2,h3,h4,h5,p,a,form{
         text-align: start; /* done */
     }
 /* ends page contacto */
+/* starts page error */
+.img-error{
+    width: 100%;
+}
+.h1-error{
+    margin: 20px 10px;
+    padding: 20px 10px;
+    text-align: center;
+    font-size: 1.5rem;
+}
+.h2-error{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 1rem;
+}
+/* ends page error */
  /* starts footer */
 .footing-color{
     display: flex;
