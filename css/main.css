@@ -1,12 +1,16 @@
 /* starts base sass */
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+.border {
+  color: #4C6FB2;
+}
+
 /* ends base sass */
 /* starts shared sass */
 h1 {
   color: #4C6FB2;
   font-size: 2rem;
   text-align: center;
-  font-weight: 700;
+  font-weight: 500;
   font-family: "Roboto", sans-serif;
   margin: 20px;
   padding: 20px;
@@ -128,6 +132,11 @@ h4 {
 }
 
 /* ends search bar */
+div h3 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
 .footing-color {
   display: flex;
   flex-direction: row;
@@ -192,11 +201,6 @@ h4 {
 
 /* ends index sass */
 /* starts que es funko sass */
-@media (width < 945px) {
-  iframe {
-    width: 100%;
-  }
-}
 .main-quienes-somos {
   display: flex;
 }
@@ -230,7 +234,7 @@ h4 {
   font-size: 1rem;
   color: #072F7E;
   border-radius: 5px;
-  border: solid 3px #4C6FB2;
+  border: #4C6FB2 solid 3px;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -249,7 +253,7 @@ h4 {
 .ver-todo-button {
   display: flex;
   justify-content: center;
-  border: solid 3px #4C6FB2;
+  border: #4C6FB2 solid 3px;
   margin: 26px;
   padding: 10px;
   border-radius: 5px;
@@ -268,11 +272,16 @@ h4 {
 }
 
 .cards {
-  border: solid 3px;
-  margin: 1rem;
-  padding: 5px;
+  border: #4C6FB2 solid 3px;
+  padding: 10px;
+  margin: 10px;
 }
 
+@media (width < 945px) {
+  div iframe {
+    width: 100%;
+  }
+}
 /* ends que es funko sass */
 /* starts funkos sass */
 .txt-pagination {
@@ -294,6 +303,11 @@ h4 {
 }
 .color-filtros:hover {
   color: #4C6FB2;
+}
+
+.pagination-funko {
+  margin: 20px;
+  padding: 5px;
 }
 
 /* ends funkos sass */

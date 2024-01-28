@@ -4,7 +4,7 @@ h1{
     color: $mainColor;
     font-size: $sizeXxl;
     text-align: $txtCenter;
-    font-weight: $bold;
+    font-weight: $regular;
     font-family: 'Roboto', sans-serif;
     margin: 20px;
     padding: 20px;
@@ -122,6 +122,13 @@ h4{
         }
 }
 /* ends search bar */
+
+div{
+    h3{
+        font-size: $sizeXl;
+        font-weight: $regular;
+    }
+}
 
 .footing-color{
     display: flex;
