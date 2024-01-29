@@ -1,8 +1,5 @@
 /* starts index sass */
 
-.main-container{
-    @include basic(2% auto, $width30, $height30)
-}
 .main-home{
     display: flex;
     flex-direction: $dirCol;
@@ -10,18 +7,39 @@
     justify-content: $justySB;
     padding: $equalLgPd;
     margin-bottom: 5%;
-        img{
-            padding: $equalLgPd;
-            margin: $equalLgMg;
-            width: $width40;
-        }
-        p{
-            margin-top: 3%;
-            font-size: 1,3em;
-        }
 }
 .main-home-container-column{
     display: flex;
     flex-direction: $dirRow;
+}
+.h2-index{
+    margin-bottom: $equalLgMg
+}
+.img-index{
+    width: $width40;
+    margin: $equalLgMg;
+}
+.p-index{
+    width: $width60;
+    margin-top: 20px;
+    padding: 0px 20px;
+}
+@media (width < 650px){
+    .main-home-container-column{
+        display: flex;
+        flex-direction: column;
+    }
+    .img-index{
+        width: $width95;
+        margin: $equalLgMg;
+        padding: $equalLgPd;
+        align-items: center;
+    }
+    .p-index{
+        width: $width95;
+        padding: $equalMdPd;
+        margin-top: 3%;
+        font-size: $sizeLg;
+    }
 }
 /* ends index sass */

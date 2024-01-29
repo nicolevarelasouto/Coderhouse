@@ -3,21 +3,11 @@
 
 .main-quienes-somos{
     display: flex;
-    p{
-        width: $width60;
-        margin: 3% 1%;
-        font-size: 1.2em;
-    }
-    iframe{
-        padding: $equalMdPd;
-        margin: $equalLgMg 0px;
-        width: $width40;
-    }
+    flex-direction: column;
 }
 .main-quienes-somos-container{
     width: $widthFull;
     display: flex;
-    flex-direction: $dirRow;
     justify-content: $justySB;
 }
 .parrafo-quienes-somos{
@@ -71,12 +61,31 @@
     padding: $equalMdPd;
     margin: $equalMdMg;
 }
+.iframe-funko{
+    padding: $equalMdPd;
+    margin: $equalLgMg 0px;
+    width: $width40;
+}
+.parrafo-funko{
+    width: $width60;
+    margin: 3% 1%;
+    font-size: 1.2em;
+}
 
-@media (width < 945px){
-    div{
-        iframe{
-            width: 100%;
-        }
+@media (width < 900px){
+    .main-quienes-somos-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .iframe-funko{
+        width: $width95;
+        height: 20vh;
+        margin: $equalMdMg;
+    }
+    .parrafo-funko{
+        width: $width95;
+        margin: $equalMdMg;
+        padding: $equalLgPd;
     }
 }
 

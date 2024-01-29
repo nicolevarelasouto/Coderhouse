@@ -170,12 +170,6 @@ div h3 {
 /* ends footer */
 /* ends shared sass */
 /* starts index sass */
-.main-container {
-  margin: 2% auto;
-  width: 30%;
-  height: 30%;
-}
-
 .main-home {
   display: flex;
   flex-direction: column;
@@ -184,41 +178,55 @@ div h3 {
   padding: 20px;
   margin-bottom: 5%;
 }
-.main-home img {
-  padding: 20px;
-  margin: 20px;
-  width: 40%;
-}
-.main-home p {
-  margin-top: 3%;
-  font-size: 1, 3em;
-}
 
 .main-home-container-column {
   display: flex;
   flex-direction: row;
 }
 
+.h2-index {
+  margin-bottom: 20px;
+}
+
+.img-index {
+  width: 40%;
+  margin: 20px;
+}
+
+.p-index {
+  width: 60%;
+  margin-top: 20px;
+  padding: 0px 20px;
+}
+
+@media (width < 650px) {
+  .main-home-container-column {
+    display: flex;
+    flex-direction: column;
+  }
+  .img-index {
+    width: 95%;
+    margin: 20px;
+    padding: 20px;
+    align-items: center;
+  }
+  .p-index {
+    width: 95%;
+    padding: 10px;
+    margin-top: 3%;
+    font-size: 1rem;
+  }
+}
 /* ends index sass */
 /* starts que es funko sass */
 .main-quienes-somos {
   display: flex;
-}
-.main-quienes-somos p {
-  width: 60%;
-  margin: 3% 1%;
-  font-size: 1.2em;
-}
-.main-quienes-somos iframe {
-  padding: 10px;
-  margin: 20px 0px;
-  width: 40%;
+  flex-direction: column;
 }
 
 .main-quienes-somos-container {
   width: 100%;
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
 }
 
@@ -277,9 +285,32 @@ div h3 {
   margin: 10px;
 }
 
-@media (width < 945px) {
-  div iframe {
-    width: 100%;
+.iframe-funko {
+  padding: 10px;
+  margin: 20px 0px;
+  width: 40%;
+}
+
+.parrafo-funko {
+  width: 60%;
+  margin: 3% 1%;
+  font-size: 1.2em;
+}
+
+@media (width < 900px) {
+  .main-quienes-somos-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .iframe-funko {
+    width: 95%;
+    height: 20vh;
+    margin: 10px;
+  }
+  .parrafo-funko {
+    width: 95%;
+    margin: 10px;
+    padding: 20px;
   }
 }
 /* ends que es funko sass */
