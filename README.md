@@ -10,5 +10,4 @@ Proseguí dando mis primeros pasos en:
 - HTML5
 - CSS3
 
-![alt text](https://github.com/nicolevarelasouto/Coderhouse/blob/tercera_emtrega/evolucion_index.jpg?raw=true)
-![alt text](https://github.com/nicolevarelasouto/Coderhouse/blob/tercera_emtrega/evolucion_que_es_un_funko.jpg?raw=true)
+![alt text](https://drive.google.com/file/d/1OVpKkghBlb_zSL8hcginUmylJqPY5X5T/view?usp=sharing)
