@@ -10,5 +10,5 @@ Proseguí dando mis primeros pasos en:
 - HTML5
 - CSS3
 
-![alt text](../clase%2012%20-%20sass/imagenes/evolucion_index.jpg)
-![alt text](../clase%2012%20-%20sass/imagenes/evolucion_que_es_un_funko.jpg)
+![alt text](https://github.com/nicolevarelasouto/Coderhouse/blob/tercera_emtrega/evolucion_index.jpg?raw=true)
+![alt text](https://github.com/nicolevarelasouto/Coderhouse/blob/tercera_emtrega/evolucion_que_es_un_funko.jpg?raw=true)
