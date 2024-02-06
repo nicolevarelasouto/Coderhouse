@@ -10,4 +10,4 @@ Proseguí dando mis primeros pasos en:
 - HTML5
 - CSS3
 
-![alt text](https://drive.google.com/file/d/1OVpKkghBlb_zSL8hcginUmylJqPY5X5T/view?usp=sharing)
+(https://drive.google.com/file/d/1OVpKkghBlb_zSL8hcginUmylJqPY5X5T/view?usp=sharing)
