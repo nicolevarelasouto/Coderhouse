@@ -10,4 +10,4 @@ Proseguí dando mis primeros pasos en:
 - HTML5
 - CSS3
 
-(https://drive.google.com/file/d/1OVpKkghBlb_zSL8hcginUmylJqPY5X5T/view?usp=sharing)
+![imagen con la evolución del index](https://ibb.co/B2Pvh4V)
