@@ -62,3 +62,7 @@ En estos dos meses aprendiendo, noté el estrecho vínculo que hay entre desarro
 Entendi que una manera de alivianar el trabajo del desarrollador es dejar escrito el texto alternativo en cada imagen, optimizar las mismas y de ser posible, convertirlas en formato webp o el que se trabaje a futuro, dejar un UI kit impecable para que no tengan dudas con respecto a padding, margin, etc, y ser más flexible: no tener expectativas de un pixel perfect, porque es mucho más complejo de realizar.
 Así mismo, sé que ahora no tienen excusas si no pueden cambiar la tipografía o paleta: con sass debería llevarles pocos minutos 😉
 He tenido errores, aciertos, he extrañado Figma, pero también he pensado que realizar un carousel con Bootstrap es mucho más fácil que en Figma, pero por sobre todas las cosas, aprendí, me divertí y me llevé ganas de continuar aprendiendo.
+
+#### Link al deployment y al servidor:
+- Servidor: https://funkostoreuruguay.netlify.app/
+- Deployment: https://nicolevarelasouto.github.io/Coderhouse/index.html
