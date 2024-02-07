@@ -9,31 +9,32 @@ Todo comenzó en Figma, al no disponer de tanto tiempo de preparación como en u
 Proseguí dando mis primeros pasos en:
 - HTML5
 - CSS3
-Estos lenguajes me permitieron comprender la función de cada uno, como ir mezclando CSS a HTML mediante clases, ID, links relativos, retomar temas vistos en UX/UI como padding, margin, border y mucho más.
+Estos lenguajes me permitieron comprender la función de cada uno, como ir incorporando CSS a HTML mediante clases, ID, links relativos, links absolutos, retomar temas vistos en UX/UI como padding, margin, border y mucho más.
 
 En la primera entrega aprendí a complementar los lenguajes previos con:
 - Box modeling
 - Flexbox
 - Convenio de archivos
 
-Flexbox me ayudó a comenzar a visualizar el sitio web que imaginaba en mi mente, ya no eran elementos en línea desordenados, había mucho que pulir, pero comenzaba a tomar forma.
+Flexbox me ayudó a comenzar a visualizar el sitio web que imaginaba en mi mente y los wireframes de baja fidelidad emulaban. Ya no eran elementos en bloque desordenados, había mucho que pulir, pero comenzaba a tomar forma.
 
 En la segunda entrega, estudié estos conceptos:
 - Pseudoclases y BEM
 - Grids
 - Mobile first y comienzos de responsive
 - Frameworks, en mi caso emplee Bootstrap
-- Controlador de versiones: Git y posteriormente Github
+- Controlador de versiones: Git, y posteriormente Github
 
 Una vez más, algunos de estos temas a aprender ya los tenía pulidos, mobile first, desktop first, hover, responsive, grids (aunque no eran las mismas grillas de Figma) me ayudaron avanzar con ventaja en mi proyecto. Además, comencé a hacer asociaciones: Bootstrap funcionaría como Material Design en UI, es una ventaja tener el contenido prehecho y nuestro deber es modificarlo con nuestra paleta de colores, tipografía, y más.
 
 En la tercera entrega asimié tópicos como:
 - Sass, incluyendo: maps, mixins, instalación de sass, y más
+- Observé, pero no apliqué, el funcionamiento de condicionales
 - Animaciones
 - SEO y buenas prácticas
-- Todo completamente responsive
+- Todo el proyecto pasa a ser completamente responsive
 
-Una vez más, afloraron conocimientos previos y asociaciones, entendí que Sass ayuda mucho a la organización y puede funcionar como los estilos en Figma si se aplican correctamente: en caso de necesitar cambiar toda la paleta de colores, con un par de minutos basta. Así mismo las animaciones, que sean sutiles y no altere la vista del usuario. 
+Una vez más, afloraron conocimientos previos y asociaciones, entendí que Sass ayuda mucho a la organización, consistencia en el mapa mental del usuario y puede funcionar como los estilos en Figma si se aplican correctamente. Si se da la situación de necesitar cambiar toda la paleta de colores, con un par de minutos y cambios sería suficiente. Así mismo las animaciones, que sean sutiles y no altere la vista del usuario. 
 
 Y finalmente, en la última entrega realicé:
 - Subir el proyecto a un servidor online
@@ -59,9 +60,9 @@ Los lenguajes, versiones y herramientas que empleé a lo largo del proyecto fuer
 
 ### Conclusión
 En estos dos meses aprendiendo, noté el estrecho vínculo que hay entre desarrolladores y uxers, en la cual se necesitan el uno al otro: mi proyecto habría sido mucho más enriquecedor si hubiera podido llevar a cabo ciertas tareas de UX, pruebas como las Heurísticas, testeos y más; y así mismo, el proyecto perfecto en Figma no podría llevarse a cabo sin un desarrollador con mucho conocimiento. Es un mundo apasionante y demandante.
-Entendi que una manera de alivianar el trabajo del desarrollador es dejar escrito el texto alternativo en cada imagen, optimizar las mismas y de ser posible, convertirlas en formato webp o el que se trabaje a futuro, dejar un UI kit impecable para que no tengan dudas con respecto a padding, margin, etc, y ser más flexible: no tener expectativas de un pixel perfect, porque es mucho más complejo de realizar.
+Comprendí que una manera de alivianar el trabajo del desarrollador es dejar escrito el texto alternativo en cada imagen, optimizar las mismas y de ser posible, convertirlas en formato webp o el que se trabaje a futuro. Además, dejar un UI kit impecable para que no tengan dudas con respecto a padding, margin, etc, y ser más flexible: no tener expectativas de un pixel perfect, porque es mucho más complejo de realizar.
 Así mismo, sé que ahora no tienen excusas si no pueden cambiar la tipografía o paleta: con sass debería llevarles pocos minutos 😉
-He tenido errores, aciertos, he extrañado Figma, pero también he pensado que realizar un carousel con Bootstrap es mucho más fácil que en Figma, pero por sobre todas las cosas, aprendí, me divertí y me llevé ganas de continuar aprendiendo.
+He tenido errores, aciertos, he extrañado Figma, pero también he pensado que realizar ciertos ejercicios, un carousel con Bootstrap, es mucho más fácil que en Figma, pero por sobre todas las cosas: aprendí, me divertí y me llevé ganas de continuar ampliando mi conocimiento.
 
 #### Link al deployment y al servidor:
 - Servidor: https://funkostoreuruguay.netlify.app/
