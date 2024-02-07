@@ -9,5 +9,56 @@ Todo comenzó en Figma, al no disponer de tanto tiempo de preparación como en u
 Proseguí dando mis primeros pasos en:
 - HTML5
 - CSS3
+Estos lenguajes me permitieron comprender la función de cada uno, como ir mezclando CSS a HTML mediante clases, ID, links relativos, retomar temas vistos en UX/UI como padding, margin, border y mucho más.
 
-![imagen con la evolución del index](https://ibb.co/B2Pvh4V)
+En la primera entrega aprendí a complementar los lenguajes previos con:
+- Box modeling
+- Flexbox
+- Convenio de archivos
+
+Flexbox me ayudó a comenzar a visualizar el sitio web que imaginaba en mi mente, ya no eran elementos en línea desordenados, había mucho que pulir, pero comenzaba a tomar forma.
+
+En la segunda entrega, estudié estos conceptos:
+- Pseudoclases y BEM
+- Grids
+- Mobile first y comienzos de responsive
+- Frameworks, en mi caso emplee Bootstrap
+- Controlador de versiones: Git y posteriormente Github
+
+Una vez más, algunos de estos temas a aprender ya los tenía pulidos, mobile first, desktop first, hover, responsive, grids (aunque no eran las mismas grillas de Figma) me ayudaron avanzar con ventaja en mi proyecto. Además, comencé a hacer asociaciones: Bootstrap funcionaría como Material Design en UI, es una ventaja tener el contenido prehecho y nuestro deber es modificarlo con nuestra paleta de colores, tipografía, y más.
+
+En la tercera entrega asimié tópicos como:
+- Sass, incluyendo: maps, mixins, instalación de sass, y más
+- Animaciones
+- SEO y buenas prácticas
+- Todo completamente responsive
+
+Una vez más, afloraron conocimientos previos y asociaciones, entendí que Sass ayuda mucho a la organización y puede funcionar como los estilos en Figma si se aplican correctamente: en caso de necesitar cambiar toda la paleta de colores, con un par de minutos basta. Así mismo las animaciones, que sean sutiles y no altere la vista del usuario. 
+
+Y finalmente, en la última entrega realicé:
+- Subir el proyecto a un servidor online
+- Conocer al cliente y presupuesto
+- Últimos retoques
+
+Entonces, en esta etapa es donde mejor se puede vislumbrar la evolución que tuvo el proyecto: 
+[![N|Solid](https://upload.wikimedia.org/wikipedia/commons/a/ad/Figma-1-logo.png)](https://www.figma.com/file/m3Oe4xq6rOpkOypeQmjLoi/Wireframes?type=design&node-id=136%3A110&mode=design&t=nKgCmKKihQMYN4vM-1)
+
+Los lenguajes, versiones y herramientas que empleé a lo largo del proyecto fueron:
+- Figma
+- Visual Studio Code versión 1.79 (Mayo 2023)
+- HTML5
+- CSS3
+- SASS
+- WoW animation junto a Animate CSS, versión v4.1.1
+- Bootstrap versión v5.3
+- Bootstrap icons versión v1.11.0
+- Photopea
+- Git versión 2.43.0
+- Github
+- Netlify
+
+### Conclusión
+En estos dos meses aprendiendo, noté el estrecho vínculo que hay entre desarrolladores y uxers, en la cual se necesitan el uno al otro: mi proyecto habría sido mucho más enriquecedor si hubiera podido llevar a cabo ciertas tareas de UX, pruebas como las Heurísticas, testeos y más; y así mismo, el proyecto perfecto en Figma no podría llevarse a cabo sin un desarrollador con mucho conocimiento. Es un mundo apasionante y demandante.
+Entendi que una manera de alivianar el trabajo del desarrollador es dejar escrito el texto alternativo en cada imagen, optimizar las mismas y de ser posible, convertirlas en formato webp o el que se trabaje a futuro, dejar un UI kit impecable para que no tengan dudas con respecto a padding, margin, etc, y ser más flexible: no tener expectativas de un pixel perfect, porque es mucho más complejo de realizar.
+Así mismo, sé que ahora no tienen excusas si no pueden cambiar la tipografía o paleta: con sass debería llevarles pocos minutos 😉
+He tenido errores, aciertos, he extrañado Figma, pero también he pensado que realizar un carousel con Bootstrap es mucho más fácil que en Figma, pero por sobre todas las cosas, aprendí, me divertí y me llevé ganas de continuar aprendiendo.
