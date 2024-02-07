@@ -65,5 +65,5 @@ Así mismo, sé que ahora no tienen excusas si no pueden cambiar la tipografía 
 He tenido errores, aciertos, he extrañado Figma, pero también he pensado que realizar ciertos ejercicios, un carousel con Bootstrap, es mucho más fácil que en Figma, pero por sobre todas las cosas: aprendí, me divertí y me llevé ganas de continuar ampliando mi conocimiento.
 
 #### Link al deployment y al servidor:
-- Servidor: https://funkostoreuruguay.netlify.app/
-- Deployment: https://nicolevarelasouto.github.io/Coderhouse/index.html
+- Servidor: (https://funkostoreuruguay.netlify.app/)
+- Deployment: (https://nicolevarelasouto.github.io/Coderhouse/index.html)
